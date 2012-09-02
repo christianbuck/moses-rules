@@ -30,9 +30,9 @@ Some things are better translated by rules than by looking them up in a table. T
 
 possibly by annotating the source
 
-> Pay $ <NUMBER> by <DATE> 
+> Pay $ &lt;NUMBER&gt; by &lt;DATE&gt; 
 
-> Zahle <NUMBER> $ bis zum <DATE>
+> Zahle &lt;NUMBER&gt; $ bis zum &lt;DATE&gt;
 
 and 'translating' the bit with rules and reconstructing the values from the alignment.
 
