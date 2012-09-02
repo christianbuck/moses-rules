@@ -20,6 +20,19 @@ while paying attention to detail:
 Todo: Reconstruct original markup using alignment
 
 
-
 ## Translation of numbers, dates etc.
+
+Some things are better translated by rules than by looking them up in a table. These include dates and numbers. Thus we would like to translate:
+
+> Pay $1,000 by September 5th 
+
+> Zahle 1.000 $ bis zum 5. September
+
+possibly by annotating the source
+
+> Pay $ <NUMBER> by <DATE> 
+
+> Zahle <NUMBER> $ bis zum <DATE>
+
+and 'translating' the bit with rules and reconstructing the values from the alignment.
 
